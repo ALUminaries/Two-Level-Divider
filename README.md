@@ -7,6 +7,7 @@ This repository contains source code for a VHDL implementation of the high-preci
 - For implementation and on-board testing, all files in `/src` and subdirectories are required.
   - Technically, not all of the small encoder components in `/src/Base Encoders` are needed depending on bit precision, but if you are switching between bit precisions it is recommended to simply import all of them, as `priority_encoder_generic` will only instantiate the necessary components.
   - To adjust for different bit precisions, modify the generics in the top-level file.
+  - Constraint files for Digilent Basys 3 and Nexys A7-100T FPGA development boards are located in `/src/XCVR`. For other devices, adapt these constraints appropriately.
 - For synthesis and simulation *only*, the files in `/src/XCVR` are not required. Everything else is as stated above.
 
 ### Other
