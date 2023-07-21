@@ -9,6 +9,7 @@ This repository contains source code for a VHDL implementation of the high-preci
 
 ### Other
 - Some useful resources for testing can be found [here](https://github.com/ALUminaries/Two-Level-Multiplier).
+- The code provided implements our [serial transceiver, which can be found here](https://github.com/ALUminaries/Serial-Transceiver).
 
 ### Hardware Block Diagram
 ![image](https://github.com/ALUminaries/Two-Level-Divider/assets/16062019/f8893681-b5e7-47b6-b0fc-2e83da614538)
