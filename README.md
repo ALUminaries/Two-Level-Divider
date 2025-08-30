@@ -1,6 +1,6 @@
 # Two-Level-Divider
 
-This repository contains source code for a VHDL implementation of the high-precision integer division algorithm using a two-level hardware structure proposed in the paper "[High-Precision Priority Encoder Based Integer Division Algorithm](https://ieeexplore.ieee.org/document/9531809)." All components are generalized such that only generics need modified to adapt the hardware to different bit precisions.
+This repository contains source code for a VHDL implementation of the high-precision integer division algorithm using a two-level hardware structure proposed in the paper "[High-Precision Priority Encoder Based Integer Division Algorithm](https://doi.org/10.1109/MWSCAS47672.2021.9531809)." All components are generalized such that only generics need modified to adapt the hardware to different bit precisions.
 
 ### Files
 
